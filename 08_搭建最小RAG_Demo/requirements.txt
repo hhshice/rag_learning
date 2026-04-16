@@ -1,0 +1,18 @@
+# 最小 RAG Demo 依赖
+
+# 向量数据库
+chromadb>=0.4.0
+
+# Embedding 和 Rerank
+sentence-transformers>=2.2.0
+
+# 文档切分
+langchain-text-splitters>=0.0.1
+
+# Web API（可选）
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+
+# 其他依赖
+numpy>=1.24.0
